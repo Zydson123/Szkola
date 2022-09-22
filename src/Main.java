@@ -4,6 +4,7 @@ public class Main {
 
         //System.out.println(jas.getImie());
         //System.out.println(jas);
-        Osoba Janek = new Uczen("jas", 11);
+        Uczen Janek = new Uczen("jas", 11);
+        System.out.println(Janek);
     }
 }

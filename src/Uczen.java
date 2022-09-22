@@ -8,4 +8,12 @@ public class Uczen extends Osoba{
         this.nrUcznia = liczbaUczniow;
 
     }
+
+    @Override //override - zamienia toString z mormalnej javy do tego poniżej
+    public String toString() {
+        return "imie:" + getImie() +
+                " wiek: " + getWiek() +
+                " nrUcznia: " + nrUcznia;
+    }
+
 }
