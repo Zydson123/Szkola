@@ -30,4 +30,7 @@ public abstract class Osoba {
                 "imie='" + imie + '\'' +
                 ", wiek=" + wiek;
     }
+
+    public Osoba() {
+    }
 }

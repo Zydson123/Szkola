@@ -16,4 +16,8 @@ public class Uczen extends Osoba{
                 " nrUcznia: " + nrUcznia;
     }
 
+    public Uczen(int nrUcznia, String zmienna) {
+        setImie(zmienna);
+        this.nrUcznia = nrUcznia;
+    }
 }
